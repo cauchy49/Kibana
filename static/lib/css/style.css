@@ -272,6 +272,11 @@ table.logs tr.logrow:hover, td.logfield:hover, td.logfield_selected {
   cursor: pointer;
 }
 
+/* limit height to 2 lines */
+table.logs tr.logrow div {
+  overflow: hidden;
+  max-height: 40px;
+}
 
 table.logdetails {
   margin-left: 10px;
